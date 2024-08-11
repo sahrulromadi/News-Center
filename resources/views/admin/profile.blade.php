@@ -71,17 +71,21 @@
                                 <div class="row gx-3 mb-3">
                                     <div class="col-md-6">
                                         <label class="small mb-1" for="inputPassword">New Password</label>
-                                        <input class="form-control" id="inputPassword" type="password"
-                                            placeholder="Enter your new password" name="password">
-                                        <i class="fa fa-eye"
-                                            id="togglePassword"></i>
+                                        <div class="position-relative">
+                                            <input class="form-control pe-5" id="inputPassword" type="password"
+                                                placeholder="Enter your new password" name="password">
+                                            <i class="fa fa-eye position-absolute top-50 end-0 translate-middle-y pe-3"
+                                                id="togglePassword"></i>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
                                         <label class="small mb-1" for="inputConfirmPassword">Confirm Password</label>
-                                        <input class="form-control" id="inputConfirmPassword" type="password"
-                                            placeholder="Enter your confirm password" name="password_confirmation">
-                                        <i class="fa fa-eye"
-                                            id="toggleConfirmPassword"></i>
+                                        <div class="position-relative">
+                                            <input class="form-control" id="inputConfirmPassword" type="password"
+                                                placeholder="Enter your confirm password" name="password_confirmation">
+                                            <i class="fa fa-eye position-absolute top-50 end-0 translate-middle-y pe-3"
+                                                id="toggleConfirmPassword"></i>
+                                        </div>
                                     </div>
                                 </div>
                                 <button class="btn btn-success" type="submit" id="submitButton">Save changes</button>

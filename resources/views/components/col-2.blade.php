@@ -14,7 +14,7 @@
                 <div class="col-8">
                     <div class="features-content d-flex flex-column">
                         <p class="text-uppercase mb-2">{{ $news->category->name }}</p>
-                        <a href="#" class="h6">
+                        <a href="{{ route('news.show', $news->id) }}" class="h6">
                             {{ $news->title }}
                         </a>
                         <small class="text-body d-block"><i class="fas fa-calendar-alt me-1"></i>
@@ -29,13 +29,11 @@
 <h4 class="my-4">Stay Connected</h4>
 <div class="row g-4">
     <div class="col-12">
-        <a href="#"
-            class="w-100 rounded btn btn-primary d-flex align-items-center p-3 mb-2">
+        <a href="#" class="w-100 rounded btn btn-primary d-flex align-items-center p-3 mb-2">
             <i class="fab fa-youtube btn btn-light btn-square rounded-circle me-3"></i>
             <span class="text-white">Theun Dev</span>
         </a>
-        <a href="#"
-            class="w-100 rounded btn btn-danger d-flex align-items-center p-3 mb-4">
+        <a href="#" class="w-100 rounded btn btn-danger d-flex align-items-center p-3 mb-4">
             <i class="fab fa-github btn btn-light btn-square rounded-circle me-3"></i>
             <span class="text-white">Sahrul Romadi</span>
         </a>

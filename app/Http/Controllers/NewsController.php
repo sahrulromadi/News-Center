@@ -23,7 +23,9 @@ class NewsController extends Controller
             ->withCount('likes')
             ->orderBy('likes_count', 'desc')
             ->get();
-        $topCategory = Category::orderBy('views', 'desc')->get();
+        $topCategory = Category::orderBy('views', 'desc')
+            ->orderBy('created_at', 'desc')
+            ->get();
 
         return view('home', compact(
             'latestNews',
@@ -114,7 +116,7 @@ class NewsController extends Controller
     {
         $randomNews = News::inRandomOrder()->take(2)->get();
         $news->increment('views');
-        
+
         return view('detail', compact('news', 'randomNews'));
     }
 

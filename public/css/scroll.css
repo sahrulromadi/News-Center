@@ -1,0 +1,56 @@
+
+.scroll-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.scroll-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 0.5rem;
+    scrollbar-width: none;
+}
+
+.scroll-content::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f4f6f8;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    padding: 0.5rem;
+    
+}
+
+.scroll-button.left {
+    left: 0;
+}
+
+.scroll-button.right {
+    right: 0;
+}
+
+@media (max-width: 576px) {
+    .scroll-content {
+        max-width: 100vw;
+        font-size: 0.75rem;
+        justify-content: center;
+    }
+
+    .navbar-nav {
+        display: inline-flex;
+        flex-wrap: nowrap;
+    }
+
+    .scroll-button {
+        display: block;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+}

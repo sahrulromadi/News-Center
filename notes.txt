@@ -1,0 +1,6 @@
+bug
+- scroll di mode mobile tidak bisa
+- search di home
+- email valid & forget password
+- weather menggunakan api                              
+

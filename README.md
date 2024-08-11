@@ -6,23 +6,12 @@
 
 ## Features
 
-- **News Management:** Easily add, edit, and delete news.
-- **Responsive Design:** A responsive layout that works well on various devices.
-- **News CRUD:** Create, Read, Update, and Delete operations for news.
-- **Admin Panel:** An admin panel for managing news and users.
-
-## Installation
-
-Follow these steps to install and run this project:
-
-1. git clone https://github.com/sahrulromadi/News-Center.git
-2. cd repository
-3. composer install
-4. cp .env.example .env
-5. php artisan key:generate
-6. php artisan migrate
-7. php artisan serve
+-   **News Management:** Easily add, edit, and delete news.
+-   **Responsive Design:** A responsive layout that works well on various devices.
+-   **News CRUD:** Create, Read, Update, and Delete operations for news.
+-   **Admin Panel:** An admin panel for managing news and users.
 
 ## Credits
-- Home template : https://themewagon.com/themes/newsers/
-- Admin template : https://themewagon.com/themes/kaiadmin/
+
+-   Home template : https://themewagon.com/themes/newsers/
+-   Admin template : https://themewagon.com/themes/kaiadmin/

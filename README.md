@@ -1,17 +1,5 @@
-# News Center
+![Screenshot 2024-09-15 003150](https://github.com/user-attachments/assets/b4c431ee-a0b6-4217-b1b4-1179e4de5363)
 
-## Description
+![Screenshot 2024-09-15 003326](https://github.com/user-attachments/assets/ffd1ab60-24de-4ed3-beaa-52bb444977c4)
 
-**News Center** is a simple, dynamic news web portal that allows content to be customized to your preference. This project enables users to add, manage, and display news in an easy and efficient manner.
-
-## Features
-
--   **News Management:** Easily add, edit, and delete news.
--   **Responsive Design:** A responsive layout that works well on various devices.
--   **News CRUD:** Create, Read, Update, and Delete operations for news.
--   **Admin Panel:** An admin panel for managing news and users.
-
-## Credits
-
--   Home template : https://themewagon.com/themes/newsers/
--   Admin template : https://themewagon.com/themes/kaiadmin/
+![Screenshot 2024-09-15 003304](https://github.com/user-attachments/assets/222bde07-dcf2-4ce0-a222-b8b536e2adf1)

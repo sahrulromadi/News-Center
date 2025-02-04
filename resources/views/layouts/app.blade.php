@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<!-- development -->
 <head>
     <meta charset="utf-8" />
-    <title>News Center</title>
+    <title>Notifikasy Politik 👀</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <link rel="icon" href="{{ asset('img/icon.png') }}" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('img/icon.jpg') }}" type="image/x-icon" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -74,8 +74,8 @@
             <div class="container px-0">
                 <nav class="navbar navbar-light navbar-expand-xl">
                     <a href="{{ route('index') }}" class="navbar-brand d-block">
-                        <img src="{{ asset('img/logo.png') }}" alt="" class="img-fluid"
-                            style="max-width: 60px;">
+                        <img src="{{ asset('img/logo.jpg') }}" alt="" class="img-fluid"
+                            style="max-width: 130px;">
                     </a>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarCollapse">
@@ -100,7 +100,7 @@
                             </button>
                         </div>
                         <div class="d-flex flex-nowrap border-top pt-3 pt-xl-0 mx-2">
-                            <div class="d-flex">
+                            <!-- <div class="d-flex">
                                 <img src="{{ asset('th/img/weather-icon.png') }}" class="img-fluid w-100 ms-2"
                                     alt="" />
                                 <div class="d-flex align-items-center">
@@ -110,7 +110,7 @@
                                         <small>YOUR DATE</small>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <button
                                 class="btn-search btn border border-primary btn-md-square rounded-circle bg-white my-auto"
                                 data-bs-toggle="modal" data-bs-target="#searchModal">
